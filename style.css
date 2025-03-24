@@ -8,6 +8,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: rgb(255, 215, 252);
+    
 }
 
 div {
@@ -43,6 +44,19 @@ button:hover {
 input, textarea {
     padding: 10px;
     border-radius: 5px;
+}
+
+input[type=submit] {
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    color: cyan;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: darkblue;
+    color: aquamarine;
 }
 
 select {
