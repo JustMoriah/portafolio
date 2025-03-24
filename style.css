@@ -1,0 +1,98 @@
+/* Center everything in the body */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 215, 252);
+}
+
+div {
+    width: 80%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(194, 143, 236);
+    box-shadow: 3px 3px 6px pink;
+    padding: 10px;
+    border: 3px;
+    border-style: dashed;
+    border-color: rgb(140, 101, 172);
+}
+
+h1, h2, h3, h4, h5 {
+    color: cyan;
+    -webkit-text-stroke: 0.5px blue;
+}
+
+button {
+    padding: 10px;
+    background-color: blue;
+    border: none;
+    color: cyan;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+    color: aquamarine;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: cyan;
+    border: 3px;
+    border-style: solid;
+    border-color: blue;
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.w3-border {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: blue;
+    box-shadow: 3px 3px 6px rgb(140, 101, 172);
+    padding: 0%;
+    border: 0px;
+}
+
+.w3-grey {
+    width: 100%;
+    height: 24px;
+    background-color: cyan;
+    box-shadow: none;
+    padding: 0%;
+    border: 0px;
+}
+
+.visit-web {
+    width: 336px;
+    height: fit-content;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: cyan;
+    box-shadow: 3px 3px 6px rgb(140, 101, 172);;
+}
+
+.visit-web h2 {
+    color: blue;
+}
+
+.visit-web button {
+    font-weight: bold;
+}

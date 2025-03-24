@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>マティーのポートフォリオ</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="./assests/ThatMattie_logo.png">
+    </head>
+    <body>
+        <div>
+            <table style="width: 100%;">
+                <tr>
+                    <td><img src="./assests/ThatMattie_logo.png" height="112" width="112" style="border: 3px; border-style: solid; border-color: blue; border-radius: 3px;"></td>
+                    <td><h1><b>マティー・モラヤ・フローレス・ロハス</b></h1></td>
+                    <td><a href="#about">について</a></td>
+                    <td><a href="#languages">言語</a></td>
+                    <td><a href="#projects">プロジェクト</a></td>
+                    <td><a href="#contact">連絡する</a></td>
+                    <td>
+                        <select onchange="location = this.value;">
+                            <option value="ホームページ.html">日本語</option>
+                            <option value="index.html">English</option>
+                            <option value="indice.html">Español</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="about">
+            <p>ザットマティーです。プログラミングとソフトウェアが好きです。ウェブ開発を学びました。Unity と Godot を使ったことがあります。</p>
+        </div>
+        <div id="languages">
+            <h1>言語</h1>
+            <h2>人</h2>
+            <p><b>English</b></p>
+            <div class="w3-border" style="height: 24px;">
+                <div class="w3-grey" style="height:24px;width:100%">100%</div>
+            </div>
+            <p><b>Español</b></p>
+            <div class="w3-border" style="height: 24px;">
+                <div class="w3-grey" style="height:24px;width:90%">90%</div>
+            </div>
+            <p><b>日本語</b></p>
+            <div class="w3-border" style="height: 24px;">
+                <div class="w3-grey" style="height:24px;width:5%">5%</div>
+            </div>
+            <h2>プログラミング</h2>
+            <p><b>HTML</b></p>
+            <div class="w3-border" style="height: 24px;">
+                <div class="w3-grey" style="height:24px;width:100%">100%</div>
+            </div>
+            <p><b>CSS</b></p>
+            <div class="w3-border" style="height: 24px;">
+                <div class="w3-grey" style="height:24px;width:70%">70%</div>
+            </div>
+            <p><b>JavaScript</b></p>
+            <div class="w3-border" style="height: 24px;">
+                <div class="w3-grey" style="height:24px;width:75%">75%</div>
+            </div>
+            <p><b>C</b></p>
+            <div class="w3-border" style="height: 24px;">
+                <div class="w3-grey" style="height:24px;width:70%">70%</div>
+            </div>
+            <p><b>C++</b></p>
+            <div class="w3-border" style="height: 24px;">
+                <div class="w3-grey" style="height:24px;width:75%">75%</div>
+            </div>
+            <p><b>C#</b></p>
+            <div class="w3-border" style="height: 24px;">
+                <div class="w3-grey" style="height:24px;width:75%">75%</div>
+            </div>
+            <p><b>Java</b></p>
+            <div class="w3-border" style="height: 24px;">
+                <div class="w3-grey" style="height:24px;width:70%">70%</div>
+            </div>
+        </div>
+        <div id="projects">
+            <h1>オンラインプロジェクト</h1>
+            <table style="width: 100%;">
+                <tr>
+                    <td>
+                        <div class="visit-web">
+                            <img src="./assests/food.jpeg" width="100%" style="object-fit: fill;">
+                            <h2>Recipe Search</h2>
+                            <a href="https://recipe-search-eight-ashy.vercel.app/"><button>訪問</button></a>
+                        </div>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <div class="visit-web">
+                            <img src="./assests/Yogurt.png" width="100%" style="object-fit: fill;">
+                            <h2>Yogurt Store</h2>
+                            <a href="https://yogurt-store.vercel.app/"><button>訪問</button></a>
+                        </div>
+                    </td>
+                    <td>&nbsp;</td>
+                    <td>
+                        <div class="visit-web">
+                            <img src="./assests/ThatMattie_logo.png" width="100%" style="object-fit: fill;">
+                            <h2>Personal Website</h2>
+                            <a href="https://thatmattie.neocities.org"><button>訪問</button></a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <h1 id="contact">連絡する</h1>
+            <form>
+                <label>E-mail:&nbsp;</label><br>
+                <input type="email" name="email" placeholder="E-mail"><br><br>
+                <label>名前:&nbsp;</label><br>
+                <input type="text" name="name" placeholder="名前"><br><br>
+                <label>メッセージ:&nbsp;</label><br>
+                <textarea cols="30" rows="10" placeholder="メッセージ"></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+        <div>
+            <p>&copy;ThatMattie, 2025</p>
+            <a href="https://github.com/JustMoriah/"><img src="./assests/github-mark.png" width="36" height="36"></a>
+            <a href="https://thatmattie.itch.io/"><img src="./assests/itchio_logo.png" width="36" height="36"></a>
+        </div>
+    </body>
+</html>
